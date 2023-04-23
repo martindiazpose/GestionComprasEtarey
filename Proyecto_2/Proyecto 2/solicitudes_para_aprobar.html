@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitudes para aprobar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>Solicitudes para aprobar</h1>
+    <nav>
+        <ul>
+            <li><a class="shadow p-3 mb-5 bg-body-tertiary rounded" href="/crear_solicitud.html">Crear solicitud</a>
+            </li>
+            <li><a class="shadow p-3 mb-5 bg-body-tertiary rounded" href="/solicitudes_para_aprobar.html">Solicitudes
+                    para aprobar</a></li>
+            <li><a class="shadow p-3 mb-5 bg-body-tertiary rounded" href="/mis_solicitudes.html">Mis solicitudes</a>
+            </li>
+            <li><a class="shadow p-3 mb-5 bg-body-tertiary rounded" href="/index.html">Usuario</a></li>
+        </ul>
+    </nav>
+
+    <table class="table table table-hover table table-bordered border-primary">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Solicitante</th>
+                <th scope="col">Detalle</th>
+                <th scope="col">ID solicitud</th>
+                <th scope="col">Aceptar/Rechazar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Santiago Torterolo</td>
+                <td>Compra de Impresora</td>
+                <td>001</td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate"></label>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Federico Rodriguez</td>
+                <td>Compra de Servidor </td>
+                <td>002</td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate"></label>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Daniel Comunales</td>
+                <td>Compra de Mesa Ping Pong</td>
+                <td>003</td>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate"></label>
+                    </div>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+    <div class="d-grid gap-2 mx-auto unidad centrar">
+        <button class="btn btn-primary" type="button">Enviar aprobación/cancelación</button>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+                Notificar por correo electrónico
+            </label>
+        </div>
+    </div>
+   
+</body>
+
+</html>
